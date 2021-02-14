@@ -20,6 +20,7 @@ temp['To'] = df['From_To'].str.split('_').str[1]
 
 temp['From']=temp['From'].str.capitalize()
 temp['To']= temp['To'].str.capitalize()
+
 df=df.drop(['From_To'], axis=1)
 
 right = df
