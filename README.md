@@ -8,7 +8,7 @@ df = pd.DataFrame({'From_To': ['LoNDon_paris', 'MAdrid_miLAN',
 'Airline': ['KLM(!)', '<Air France> (12)', '(British Airways. )',
 '12. Air France', '"Swiss Air"']})
   
-  df.head()
+df.head()
 df=df.fillna(0.0)
 df.dtypes
 df['FlightNumber'][1]=10055.0
